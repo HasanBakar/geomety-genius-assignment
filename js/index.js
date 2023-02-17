@@ -11,7 +11,7 @@ function showTheCalculation(serial, name, area, convert) {
     tr.innerHTML =`
     <td>${serial}. <span><small>${name}</small></span></td>
     <td>${area} <span><small>cm<sup>2</sup></small></span></td>
-    <td><button class="px-1 py-2 rounded-lg btn-success"><small>convert to m<sup>2</sup></small></button></td>
+    <td><button class="px-1 py-2 bold rounded-lg btn-success"><small>convert to m<sup>2</sup></small></button></td>
     `;
 tableContainer.appendChild(tr);
 }
