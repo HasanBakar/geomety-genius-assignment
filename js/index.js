@@ -1,5 +1,5 @@
 let serial = 0;
-const pi = 3.1416;
+const pi = 3.14;
 function getInnerTextWithId(textFieldId) {
     const textFieldValue =document.getElementById(textFieldId).innerText;
     return textFieldValue;
@@ -9,10 +9,9 @@ function showTheCalculation(serial, name, area, convert) {
     const tableContainer = document.getElementById('table_body_container');
     const tr = document.createElement("tr");
     tr.innerHTML =`
-    <th>${serial}</th>
-    <th><small>${name}</small></th>
-    <th>${area}</th>
-    <th>${convert}</th>
+    <td>${serial}. <span><small>${name}</small></span></td>
+    <td>${area} <span><small>cm<sup>2</sup></small></span></td>
+    <td><button class="px-1 py-2 rounded-lg btn-success"><small>convert to m<sup>2</sup></small></button></td>
     `;
 tableContainer.appendChild(tr);
 }
