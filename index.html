@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <div id="toast_message">
+
+    </div>
     <!-- header section  -->
     <header>
         <nav class="container mx-auto shadow-xl">
@@ -37,7 +40,7 @@
                     <img src="./images/triangle.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title bold text-2xl">Triangle</h2>
+                    <h2 id="title_one_triangle" class="card-title bold text-2xl">Triangle</h2>
                     <p>Area (A) = 0.5 x b x h</p>
                     <div class="flex gap-2">
                         <div class="flex">
@@ -45,13 +48,13 @@
                             <p>cm</p>
                         </div>
                         <div class="flex">
-                            <input type="number" placeholder="h" class="w-16 pl-2 bg-gray-300">
+                            <input id="height_triangle" type="number" placeholder="h" class="w-16 pl-2 bg-gray-300">
                             <p>cm</p>
                         </div>
                     </div>
                     <!-- <p>If a dog chews shoes whose shoes does he choose?</p> -->
                     <div class="card-actions">
-                        <button class="btn btn-primary w-full">Calculate</button>
+                        <button id="btn_triangle_calculate" class="btn btn-primary w-full">Calculate</button>
                     </div>
                 </div>
             </div>
@@ -61,21 +64,21 @@
                     <img src="./images/rectangle.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title bold text-2xl">Rectangle</h2>
+                    <h2 id="title_two_rectangle" class="card-title bold text-2xl">Rectangle</h2>
                     <p>Area (A) = w x l</p>
                     <div class="flex gap-2">
                         <div class="flex">
-                            <input type="number" placeholder="w" class="w-16 pl-2 bg-gray-300">
+                            <input id="base_rectangle" type="number" placeholder="w" class="w-16 pl-2 bg-gray-300">
                             <p>cm</p>
                         </div>
                         <div class="flex">
-                            <input type="number" placeholder="l" class="w-16 pl-2 bg-gray-300">
+                            <input id="height_rectangle" type="number" placeholder="l" class="w-16 pl-2 bg-gray-300">
                             <p>cm</p>
                         </div>
                     </div>
 
                     <div class="card-actions">
-                        <button class="btn btn-primary w-full">Calculate</button>
+                        <button id="btn_rectangle" class="btn btn-primary w-full">Calculate</button>
                     </div>
                 </div>
             </div>
