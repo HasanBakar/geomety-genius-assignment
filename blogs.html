@@ -26,7 +26,46 @@
             </div>
         </nav>
     </header>
-
+    <main class="container mx-auto">
+        <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <article class="outline w-full  px-5 py-2 my-6">
+                <h1 class="text-2xl font-bold">What is DOM and what is the purpose of DOM?</h1>
+                <p>
+                    <span class="text-info">DOM stand for Document Object Model</span><br>
+                    DOM is essentially a representation of the same HTML document but in a different format with the use
+                    of objects.
+                </p>
+            </article>
+            <article class="outline w-full  px-5 py-2 my-6">
+                <h1 class="text-2xl font-bold">How will you select HTML elements using DOM? Name the DOM methods</h1>
+                <ol>
+                    <li>getElementsByTagName()</li>
+                    <li>getElementById()</li>
+                    <li>getElementsByClassName()</li>
+                    <li>querySelector()</li>
+                    <li>querySelectorAll()</li>
+                </ol>
+            </article>
+            <article class="outline w-full  px-5 py-2 my-6">
+                <h1 class="text-2xl font-bold">What is event bubble?</h1>
+                <p>Event bubbles are a topic you may have come across in your JavaScript elemet travesing. <br> This is
+                    the
+                    order in which event handlers
+                    are called when an element is nested within a second element and both elements have registered a
+                    listener for the same
+                    event. for example add listener event</p>
+            </article>
+            <article class="outline w-full  px-5 py-2 my-6">
+                <h1 class="text-2xl font-bold">What is a callback function and why will you use it?</h1>
+                <p>A function is said to be a callback function. when the function passed into another function as an
+                    argument. <br>We need the callback function because many JavaScript actions are asynchronous, which
+                    means the function doesn't stop
+                    running until they're done, as you're probably used to. Instead, it will execute in the background
+                    while the rest of the
+                    code runs.</p>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
