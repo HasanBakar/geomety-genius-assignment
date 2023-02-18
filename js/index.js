@@ -43,7 +43,13 @@ document.getElementById('btn_triangle_calculate').addEventListener('click', func
 </div>
   `;
   toast.appendChild(div);
+ const myTimeout = setTimeout(myGreeting, 1000);
+
+function myGreeting() {
+  document.getElementById("toast_message").innerHTML = " "
+}
     }
+
 });
 
 document.getElementById('btn_rectangle').addEventListener('click', function () {
@@ -68,6 +74,11 @@ document.getElementById('btn_rectangle').addEventListener('click', function () {
 </div>
   `;
   toast.appendChild(div);
+  const myTimeout = setTimeout(myGreeting, 1000);
+
+function myGreeting() {
+  document.getElementById("toast_message").innerHTML = " "
+}
     }
 });
 
